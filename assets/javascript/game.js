@@ -44,7 +44,7 @@ function randomNumber(min, max) {
       console.log(gem1);
     }
     score += gem1;
-    $("#score").text("Score So Far: " + score);
+    $("#score").text("Score: " + score);
     checkWin();
   });
   
